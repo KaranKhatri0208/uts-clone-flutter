@@ -228,7 +228,7 @@ class _AuthScreen extends State<AuthScreen> {
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(
-                        color: MyColors.green,
+                        color: MyColors.orange,
                         width: 1,
                       ),
                     ),
@@ -279,7 +279,7 @@ class _AuthScreen extends State<AuthScreen> {
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                       borderSide: BorderSide(
-                        color: Colors.green, // Assuming MyColors.blue is not defined
+                        color: MyColors.orange, // Assuming MyColors.blue is not defined
                         width: 1,
                       ),
                     ),
@@ -314,7 +314,7 @@ class _AuthScreen extends State<AuthScreen> {
                   padding: const EdgeInsets.only(left: 10, right: 10),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: MyColors.green,
+                      backgroundColor: MyColors.orange,
                       disabledBackgroundColor: MyColors.veryLightBlue,
                       minimumSize: Size(double.infinity, 60),
                       shape: RoundedRectangleBorder(
@@ -372,7 +372,7 @@ class _AuthScreen extends State<AuthScreen> {
                       child: Text(
                         _isLogin ? " Sign Up" : ' Login',
                         style: TextStyle(
-                          color: MyColors.green,
+                          color: MyColors.orange,
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
                         ),

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434833307990",
+    "project_id": "uts-clone",
+    "storage_bucket": "uts-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434833307990:android:5bb25e82ed6ddde6bcfef7",
+        "android_client_info": {
+          "package_name": "com.example.uts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhG8cwcNUOmdejbz3nRkDxN7baGPmer_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

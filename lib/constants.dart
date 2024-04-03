@@ -17,4 +17,5 @@ class MyColors {
   static const secondaryDark = Color(0xff2b2250);
   static const bluePurple = Color(0xff6a85e5);
   static const greyTextBox = Color(0xfff5f5f7);
+  static const orange = Color(0xffde750b);
 }

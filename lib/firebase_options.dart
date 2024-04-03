@@ -25,7 +25,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -44,38 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBU-aWG9s9UOl7n5MwsdUYUQE9ikRQrCSA',
-    appId: '1:994530050638:web:f376bf4a92c4189fe7391f',
-    messagingSenderId: '994530050638',
-    projectId: 'chat-gpt-9ee62',
-    authDomain: 'chat-gpt-9ee62.firebaseapp.com',
-    storageBucket: 'chat-gpt-9ee62.appspot.com',
-    measurementId: 'G-5PKNLL5NVB',
+    apiKey: 'AIzaSyCDa5veQzn5B1P6bBkJmu-F8qRlIMf6BQU',
+    appId: '1:434833307990:web:7f5399e08c9262f1bcfef7',
+    messagingSenderId: '434833307990',
+    projectId: 'uts-clone',
+    authDomain: 'uts-clone.firebaseapp.com',
+    storageBucket: 'uts-clone.appspot.com',
+    measurementId: 'G-9FQQ3QFX3C',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAGUrrjNm0lDLiFfeR41aJno8NA85IBSiI',
-    appId: '1:994530050638:android:8aaa72a65ed10148e7391f',
-    messagingSenderId: '994530050638',
-    projectId: 'chat-gpt-9ee62',
-    storageBucket: 'chat-gpt-9ee62.appspot.com',
+    apiKey: 'AIzaSyBhG8cwcNUOmdejbz3nRkDxN7baGPmer_c',
+    appId: '1:434833307990:android:5bb25e82ed6ddde6bcfef7',
+    messagingSenderId: '434833307990',
+    projectId: 'uts-clone',
+    storageBucket: 'uts-clone.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBFCz46f-SRjMB9PcEOd1piTKu1m9HKBVA',
-    appId: '1:994530050638:ios:5c89c7487abcf9cde7391f',
-    messagingSenderId: '994530050638',
-    projectId: 'chat-gpt-9ee62',
-    storageBucket: 'chat-gpt-9ee62.appspot.com',
-    iosBundleId: 'com.example.chatGpt',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBFCz46f-SRjMB9PcEOd1piTKu1m9HKBVA',
-    appId: '1:994530050638:ios:65caaaca61da6d36e7391f',
-    messagingSenderId: '994530050638',
-    projectId: 'chat-gpt-9ee62',
-    storageBucket: 'chat-gpt-9ee62.appspot.com',
-    iosBundleId: 'com.example.chatGpt.RunnerTests',
+    apiKey: 'AIzaSyCaGV9OVVIeLj6_fMnd2901szjPPi8Fd_A',
+    appId: '1:434833307990:ios:abefd12f09f05d8dbcfef7',
+    messagingSenderId: '434833307990',
+    projectId: 'uts-clone',
+    storageBucket: 'uts-clone.appspot.com',
+    iosBundleId: 'com.example.uts',
   );
 }
